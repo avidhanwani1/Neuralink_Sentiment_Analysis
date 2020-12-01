@@ -4,7 +4,7 @@ Elon Musk's initiative to produce brain chip technology has surely grabbed the p
 
 Neuralink is developing a technology to implant wireless brain-computer interfaces in the most complex human organ to help cure neurological conditions like Alzheimer's, dementia, and spinal cord injuries and ultimately fuse humankind with artificial intelligence. 
 
-Musk on a webcast mentioned that it can solve problems like memory loss, hearing loss, depression, and insomnia; "An implantable device can actually solve these problems". The trials have been done on pigs, but it is possible that the trials may begin by the beginning of 2021. I find this initiative quite interesting, therefore, decided to see the public's sentiment towards Neuralink using Twitter API. 
+Musk on a webcast mentioned that it can solve problems like memory loss, hearing loss, depression, and insomnia; "An implantable device can actually solve these problems". The trials have been done on pigs, but it is possible that the human trials may begin by the beginning of 2021. I find this initiative quite interesting, therefore, decided to see the public's sentiment towards Neuralink using Twitter API. 
 
 For this project, I mainly used Tweepy, TextBlob, and WordCloud to portray the results. In order to fetch tweets, I created a Twitter developer account then created an app, which gave me access to consumer key, consumer secret, access token, and access secret. It is important to have all those keys to fetch tweets from Twitter. 
 Once I authenticated the keys, I fetched 1500 tweets using the keyword 'Neuralink'. Transformed the list of tweets into DataFrame in order to clean and process it for determining the subjectivity and polarity of the tweets. 
